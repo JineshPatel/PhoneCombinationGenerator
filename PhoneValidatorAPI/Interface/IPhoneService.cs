@@ -8,8 +8,6 @@ namespace PhoneValidatorAPI.Interface
 {
     public interface IPhoneService
     {
-       // PhoneViewModel GenerateCombination(string phoneNumber);
-
         PhoneViewModel GetData(string phoneNumber);
     }
 }

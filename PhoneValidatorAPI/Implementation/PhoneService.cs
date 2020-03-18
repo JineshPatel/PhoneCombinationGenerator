@@ -15,8 +15,7 @@ namespace PhoneValidatorAPI.Implementation
         public PhoneService(IMemoryCache cache)
         {
             _cache = cache;
-        }
-       
+        }      
 
         PhoneViewModel IPhoneService.GetData(string phoneNumber)
         {
@@ -46,20 +45,5 @@ namespace PhoneValidatorAPI.Implementation
             var phoneViewModel = new PhoneViewModel() { phoneNumber=phoneNumber, Combinations = result, Total = result.Count };            
             return phoneViewModel;
         }
-
-        //public PhoneViewModel GetDataFromCache(string phoneNumber)
-        //{
-        //    _cache.GetOrCreate("phoneData", l => {
-
-        //        l.AbsoluteExpiration = DateTime.Now.AddDays(1).Date;
-        //        return Get(phoneNumber);
-        //    });
-        //}
-
-        //public PhoneViewModel GetDataFromCache(string phoneNumber) =>  _cache.GetOrCreate("phoneData", l =>
-        //{
-        //    l.AbsoluteExpiration = DateTime.Now.AddDays(1).Date;
-        //    return GenerateCombination(phoneNumber);
-        //});
     }
 }

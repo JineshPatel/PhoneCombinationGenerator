@@ -31,7 +31,7 @@ namespace PhoneValidatorAPI.Controllers
              _data = _phoneService.GetData(phoneNumber);
             return new OkObjectResult(_data);
         }
-        //[FromRoute]string phoneNumber, [FromRoute]int pageNumber, [FromRoute] int pageSize = 10 
+       
         [Route("GetPhoneCombination")]
         [HttpGet]
         public IActionResult GetPhoneCombination([FromQuery]PageData page)
