@@ -44,7 +44,6 @@ export class PhoneComponent implements OnInit {
 
     this.phoneservice.getPhoneData(this.phoneNumber, this.itemPerPage, 1).subscribe(result => {
       this.data = result;
-      console.log(this.data);
     }
     );
 
@@ -52,7 +51,6 @@ export class PhoneComponent implements OnInit {
   pageChanged(page: number) {
     this.phoneservice.getPhoneData(this.phoneNumber, this.itemPerPage, page).subscribe(result => {
       this.data = result;
-      console.log(this.data);
       this.p = page;
     }
     );
