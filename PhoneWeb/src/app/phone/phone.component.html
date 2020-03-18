@@ -1,0 +1,56 @@
+<!-- 
+<div >
+
+
+<form (ngSubmit)="submit(formName)" [formGroup]="formName">
+  <div class="form-group">
+     <div class="row">
+        <div class="col-md-12">
+           <input id="numberInput" formControlName="numberInput" type="text">
+        </div>
+     </div>
+  </div>
+  <small class="form-text text-muted" *ngIf="formName.get('numberInput').touched && formName.get('numberInput').hasError('required')">This field is required!</small>
+  <small class="form-text text-muted" *ngIf="formName.get('numberInput').touched && formName.get('numberInput').hasError('invalidNumber')">Invalid Number</small>
+  <button type="submit" class="btn btn-primary" [disabled]="formName.invalid">Submit</button>
+</form>
+
+</div> -->
+
+<!-- main app container -->
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">       
+        <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="text" id="id_phone_number" formControlName="phoneNumber" class="form-control" [(ngModel)]="phoneNumber"(ngModelChange)="onChange($event)"
+              [ngClass]="{ 'is-invalid': submitted && f.phoneNumber.errors }" maxlength="10" minlength="7" />
+            <div *ngIf="submitted && f.phoneNumber.errors" class="invalid-feedback">
+              <div *ngIf="f.phoneNumber.errors.required">Phone Number is required</div>
+              <div *ngIf="f.phoneNumber.errors.pattern">Enter 7 or 10 digit number</div>
+            </div>
+          </div>
+           <br> 
+          <div class="form-group">
+            <button id="id_submit_button" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+        <div *ngIf="registerForm.valid && this.data != null">
+          <h4>Combination for {{phoneNumber}}    Total :{{data?.Total}}</h4> 
+          <br>
+          <span
+            *ngFor="let item of data?.Combinations | paginate:{itemsPerPage:itemPerPage,currentPage:p,totalItems: data?.Total }">
+            <label>{{item}}</label>
+            <br />
+          </span>
+          <ul class="pagination">
+            <pagination-controls (pageChange)="pageChanged($event)"></pagination-controls>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

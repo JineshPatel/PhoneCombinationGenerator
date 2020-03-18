@@ -1,0 +1,16 @@
+C:\Users\jpatel\source\repos\PhoneValidatorAPI\PhoneValidatorAPI\bin\Debug\netcoreapp2.1\PhoneValidatorAPI.deps.json
+C:\Users\jpatel\source\repos\PhoneValidatorAPI\PhoneValidatorAPI\bin\Debug\netcoreapp2.1\PhoneValidatorAPI.runtimeconfig.json
+C:\Users\jpatel\source\repos\PhoneValidatorAPI\PhoneValidatorAPI\bin\Debug\netcoreapp2.1\PhoneValidatorAPI.runtimeconfig.dev.json
+C:\Users\jpatel\source\repos\PhoneValidatorAPI\PhoneValidatorAPI\bin\Debug\netcoreapp2.1\PhoneValidatorAPI.dll
+C:\Users\jpatel\source\repos\PhoneValidatorAPI\PhoneValidatorAPI\bin\Debug\netcoreapp2.1\PhoneValidatorAPI.pdb
+C:\Users\jpatel\source\repos\PhoneValidatorAPI\PhoneValidatorAPI\obj\Debug\netcoreapp2.1\PhoneValidatorAPI.csprojAssemblyReference.cache
+C:\Users\jpatel\source\repos\PhoneValidatorAPI\PhoneValidatorAPI\obj\Debug\netcoreapp2.1\PhoneValidatorAPI.RazorAssemblyInfo.cache
+C:\Users\jpatel\source\repos\PhoneValidatorAPI\PhoneValidatorAPI\obj\Debug\netcoreapp2.1\PhoneValidatorAPI.RazorAssemblyInfo.cs
+C:\Users\jpatel\source\repos\PhoneValidatorAPI\PhoneValidatorAPI\obj\Debug\netcoreapp2.1\PhoneValidatorAPI.AssemblyInfoInputs.cache
+C:\Users\jpatel\source\repos\PhoneValidatorAPI\PhoneValidatorAPI\obj\Debug\netcoreapp2.1\PhoneValidatorAPI.AssemblyInfo.cs
+C:\Users\jpatel\source\repos\PhoneValidatorAPI\PhoneValidatorAPI\obj\Debug\netcoreapp2.1\PhoneValidatorAPI.RazorTargetAssemblyInfo.cache
+C:\Users\jpatel\source\repos\PhoneValidatorAPI\PhoneValidatorAPI\obj\Debug\netcoreapp2.1\PhoneValidatorAPI.dll
+C:\Users\jpatel\source\repos\PhoneValidatorAPI\PhoneValidatorAPI\obj\Debug\netcoreapp2.1\PhoneValidatorAPI.pdb
+c:\Users\jpatel\source\repos\PhoneValidatorAPI\PhoneValidatorAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+c:\Users\jpatel\source\repos\PhoneValidatorAPI\PhoneValidatorAPI\bin\Debug\netcoreapp2.1\appsettings.json
+c:\Users\jpatel\source\repos\PhoneValidatorAPI\PhoneValidatorAPI\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
